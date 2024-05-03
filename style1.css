@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Macondo+Swash+Caps&family=Over+the+Rainbow&family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Macondo+Swash+Caps&family=Over+the+Rainbow&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    font-family: var(--fonte1);
+}
+
+header  {
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+header > h1 {
+    font-size: 10vw;
+    font-family: var(--fonte2);
+}
+
+header >  p {
+    padding-top: 3vh;
+    font-size: 2vw;
+}
+
+header > p  > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+section {
+    margin: 30px;
+    font-family: var(--fonte3);
+}
+
+section > p {
+    font-size: 3vw;
+    font-weight: bolder;
+    line-height: 2em;
+}
+
+section.imagem {
+    color: white;
+    margin: 0px;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem#img1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+}
+
+section.imagem#img2{
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+}
+
+div.texto2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+    font-size: 3vw;
+    font-weight: bolder;
+    line-height: 2em;
+    width: fit-content;
+    padding: 10px;
+}
+
+footer {
+    padding: 3vh;
+    background-color: grey;
+    color: white;
+    font-size: 2vh;
+    text-align: center;
+}
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
